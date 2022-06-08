@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #561338, #000000);
+
+}
+
+.png {
+    margin: 10px;
+    border-radius: 25%;
+}
+
+.squad {
+    height: 200px;
+    width: 700px;
+    background: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 20%;
+}
+
+.squad h1 {
+    text-align: center;
+    color: white;
+}
+
+.games {
+    text-align: center;
+    word-spacing: 200px;
+    margin-bottom: 100px;
+
+}
