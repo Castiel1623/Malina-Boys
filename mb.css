@@ -1,29 +1,44 @@
 body {
-    background: linear-gradient(to right, #561338, #000000);
-
+    height: 100%;
+    padding: 0 20px;
+    background: #09161c;
 }
 
-.png {
-    margin: 10px;
-    border-radius: 25%;
-}
-
-.squad {
-    height: 200px;
-    width: 700px;
-    background: rgb(0, 0, 0);
-    margin-top: 20px;
+.logo {
     border-radius: 20%;
 }
 
-.squad h1 {
-    text-align: center;
-    color: white;
+.container h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(171, 168, 168);
+}
+
+.content {
+    display: flex;
+
+}
+
+.content p {
+    color: rgb(171, 168, 168);
+    padding: 15px;
 }
 
 .games {
-    text-align: center;
-    word-spacing: 200px;
-    margin-bottom: 100px;
+    background: black;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
 
+.games-sites {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.name-games {
+    color: rgb(171, 168, 168);
+    display: flex;
+    justify-content: center;
 }
